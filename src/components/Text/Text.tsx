@@ -15,7 +15,7 @@ const StyledText = styled.p<{ $backgroundColor?: string; $disabled?: boolean; $s
   opacity: ${({ $disabled }) => ($disabled ? 0.7 : 1)};
   border-radius: 6px;
   display: inline-block;
-  font-size: ${({ $size }) => sizes[$size]};
+  font-size: ${({ $size }) => sizes[$size as keyof typeof sizes]};
   line-height: 1.5;
   margin: 0;
   max-width: 100%;

@@ -31,7 +31,10 @@
       "react-app",
       "react-app/jest",
       "plugin:storybook/recommended"
-    ]
+    ],
+    "rules": {
+      "storybook/no-renderer-packages": "off"
+    }
   },
   "browserslist": {
     "production": [
