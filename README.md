@@ -75,19 +75,19 @@ npm run build
 ### Build Docker Image
 
 ```bash
-docker build -t assignment12-image .
+docker build -t lin_luxiang_coding_assignment12 .
 ```
 
 ### Run Docker Container
 
 ```bash
-docker run -d -p 8083:80 --name lin_luxiang_coding_assignment12 assignment12-image
+docker run -d -p 8083:80 --name lin_luxiang_coding_assignment12 lin_luxiang_coding_assignment12
 ```
 
 ### Open in Browser
 
 ```text
-http://localhost:8083
+http://127.0.0.1:8083
 ```
 
 ## Features
